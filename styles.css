@@ -61,3 +61,45 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
+
+.btn-iniciar-sesion:hover {
+  background-color: #165cdb;
+}
+
+.enlace-olvido {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: #1877f2;
+  text-decoration: none;
+}
+
+.enlace-olvido:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+
+.btn-crear-cuenta{
+  padding: 14px;
+  font-size: 1rem;
+  background-color: #42b72a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-crear:hover {
+  background-color: #36a420;
+}
+
+.texto-crear-pagina {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
