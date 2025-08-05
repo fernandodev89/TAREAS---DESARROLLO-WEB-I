@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Facebook</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <main class="container">
-    
-  </main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="info">
+        <h1 class="logo">facebook</h1>
+        <p>
+          Facebook te ayuda a comunicarte y compartir con las personas que
+          forman parte de tu vida.
+        </p>
+      </section>
+
+      <section class="form-section">
+        <form class="login-form">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Correo electrónico o número de teléfono"
+            required
+          />
+
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Contraseña"
+            required
+          />
+
+          <button type="submit" class="login-btn">Iniciar sesión</button>
+
+          <a href="#" class="forgot">¿Has olvidado la contraseña?</a>
+
+          <hr />
+
+          <button type="button" class="create-btn">Crear cuenta nueva</button>
+        </form>
+
+        <p class="create-page-text">
+          <strong>Crea una página</strong> para una celebridad, una marca o un
+          negocio.
+        </p>
+      </section>
+    </main>
+  </body>
 </html>
