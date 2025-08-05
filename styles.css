@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  height: 100vh;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.informacion {
+  max-width: 400px;
+}
+
+.logo {
+  font-size: 4rem;
+  color: #1877f2;
+  margin-bottom: 10px;
+}
+
+.informacion p {
+  font-size: 1.5rem;
+}
+
+.seccion-formulario {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+  width: 360px;
+  text-align: center;
+}
+
+.formulario-inicio-sesion {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-inicio-sesion input {
+  padding: 14px 16px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+}
+
+.btn-iniciar-sesion {
+  margin-top: 10px;
+  padding: 14px;
+  font-size: 1rem;
+  color: white;
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-iniciar-sesion:hover {
+  background-color: #165cdb;
+}
+
+.enlace-olvido {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: #1877f2;
+  text-decoration: none;
+}
+
+.enlace-olvido:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+
+.btn-crear-cuenta{
+  padding: 14px;
+  font-size: 1rem;
+  background-color: #42b72a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-crear:hover {
+  background-color: #36a420;
+}
+
+.texto-crear-pagina {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
