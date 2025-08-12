@@ -9,4 +9,4 @@ FERNANDO DAVID CONTRERAS MORAN
 **Secretos en GitHub**
 ![Config Syncs](/vite-project/image/Config%20Syncs.png)
 ---
-##URL del CDN de CloudFront **[Página](https://d3rx22jrolkxtb.cloudfront.net/ "Facebook")**
+## URL del CDN de CloudFront **[Página](https://d3rx22jrolkxtb.cloudfront.net/ "Facebook")**
