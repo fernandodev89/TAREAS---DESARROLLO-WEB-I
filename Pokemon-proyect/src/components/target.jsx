@@ -27,7 +27,7 @@ function Target(){
 				<div key={pokemon.id} className='pokemon-card'>
 					<h2 className="pokemon-name">{pokemon.name}</h2>
 					<img src={pokemon.img} alt="" />
-					<p className="pokemon-species">ESPECIE:" {pokemon.species} "</p>
+					<p className="pokemon-species">ESPECIE: " {pokemon.species} "</p>
 				</div>
 			))}
 		</div>
