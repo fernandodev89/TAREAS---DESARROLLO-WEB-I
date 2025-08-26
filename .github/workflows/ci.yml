@@ -19,9 +19,11 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
+        working-directory: ./Tareas-proyect
         run: npm install
 
       - name: Build project
+        working-directory: ./Tareas-proyect
         run: npm run build
 
       - name: Configure AWS CLI
@@ -33,7 +35,7 @@ jobs:
 
       - name: Sync dist folder to S3 bucket
         run: |
-          aws s3 sync dist/ s3://${{ secrets.S3_BUCKET }} --delete
+          aws s3 sync Tareas-proyect/dist/ s3://${{ secrets.S3_BUCKET }} --delete
 
       - name: Invalidate CloudFront cache
         run: |
