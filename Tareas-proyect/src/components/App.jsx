@@ -39,7 +39,7 @@ export default function TodoApp() {
 
   return (
     <div className="todo-app">
-      <h1>📌 TODO List</h1>
+      <h1>TAREAS</h1>
 
       <div className="input-row">
         <input
