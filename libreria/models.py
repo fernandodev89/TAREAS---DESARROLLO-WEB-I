@@ -5,3 +5,7 @@ class Autor(models.Model):
     name = models.CharField(max_length=100)
     surname = models.CharField(max_length=100)
     nacionality = models.CharField(max_length=50)
+
+class Libro(models.Model):
+    titulo = models.CharField(max_length=100)
+    autor = models.ForeignKey(Autor, on_delete=models.CASCADE)
