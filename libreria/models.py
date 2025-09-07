@@ -9,3 +9,7 @@ class Autor(models.Model):
 class Libro(models.Model):
     titulo = models.CharField(max_length=100)
     autor = models.ForeignKey(Autor, on_delete=models.CASCADE)
+
+class Capitulo(models.Model):
+    titulo = models.CharField(max_length=100)
+    libro = models.ForeignKey(Libro, on_delete=models.CASCADE)
