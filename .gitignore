@@ -1,8 +1,50 @@
+# Entornos virtuales
 venv/
+.env/
+.env.local
 
+# Base de datos local
 db.sqlite3
+
+# Archivos de caché y bytecode
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+
+# Logs
 *.log
+
+# Archivos de configuración del editor/IDE
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación o temporales
+*.bak
+*.swp
+*.tmp
+
+# Archivos de cobertura o pruebas
+.coverage
+htmlcov/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Docker
+**/__pycache__/
+*.pid
+*.sock
+.docker/
+docker-compose.override.yml
+
+# Archivos de media o estáticos generados
+media/
+staticfiles/
+
+# Archivos que genera Django en colectstatic
+/static/
