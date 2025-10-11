@@ -1,0 +1,93 @@
+# ============================
+#    BACKEND (Django)
+# ============================
+
+# Entornos virtuales
+venv/
+.env/
+.env.local
+.env
+
+# Base de datos local
+db.sqlite3
+
+# Archivos de caché y bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# Archivos de configuración del editor/IDE
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación o temporales
+*.bak
+*.swp
+*.tmp
+
+# Archivos de cobertura o pruebas
+.coverage
+htmlcov/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Docker
+**/__pycache__/
+*.pid
+*.sock
+.docker/
+docker-compose.override.yml
+
+# Archivos de media o estáticos generados
+media/
+staticfiles/
+
+# Archivos que genera Django en colectstatic
+/static/
+
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# ============================
+#    FRONTEND 
+# ============================
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Configuración de entorno del frontend
+frontend/.env
+frontend/.env.*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
