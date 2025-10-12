@@ -41,7 +41,7 @@ def reveal_text(request):
         text = redis_client.get(key)
 
         if not text:
-            return JsonResponse({'error': 'Key not found or already used'}, status=404)
+            return JsonResponse({'text': 'Clave no encontrada o ya utilizada'})
 
         # Eliminar la key para que no se use otra vez
         redis_client.delete(key)
