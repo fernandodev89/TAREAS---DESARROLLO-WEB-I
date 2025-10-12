@@ -1,0 +1,22 @@
+# Imagen base de Python
+FROM python:3.12-slim
+
+# Evitar archivos .pyc y forzar salida directa al terminal
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
+# Establecer el directorio de trabajo
+WORKDIR /app
+
+# Copiar e instalar dependencias
+COPY /backend/apiKey/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copiar todo el backend (incluye manage.py y apiKey/)
+COPY backend/apiKey/ .
+
+# Exponer puerto
+EXPOSE 8000
+
+# Comando para ejecutar Django
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]

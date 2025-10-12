@@ -1,0 +1,7 @@
+asgiref==3.10.0
+Django==5.2.7
+django-cors-headers==4.9.0
+django-redis==6.0.0
+hiredis==3.2.1
+redis==6.4.0
+sqlparse==0.5.3
