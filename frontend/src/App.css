@@ -12,11 +12,20 @@
   background-color: #1F262E;
 }
 
+.form-create{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
 .textValue{
   padding: 20px;
   color: white;
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   width: 40vw;
   height: 20vh;
   resize: none;
@@ -27,7 +36,7 @@
 }
 
 .main-Button{
-  width: 20vw;
+  width: 30vw;
   height: 5vh;
   background-color: #D40570;
   color: white;
@@ -36,6 +45,7 @@
   border-radius: 5px;
   cursor: pointer;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .main-Button:hover{
@@ -59,11 +69,47 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 40%;
+  width: 80%;
   height: 7vh;
   background-color: #1F262E;  
   margin-bottom: 20px;
   font-size: 20px;
   padding: 10px;
 
+}
+
+.title-link{
+  color: white;
+  font-size: 35px;
+  width: 60vw;
+  height: 10vh;
+  text-align: center;
+}
+
+.value-result{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.show-value{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #1F262E;
+}
+
+.show-value form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
